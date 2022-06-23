@@ -1,0 +1,30 @@
+#snowflakeContainer{position:absolute;left:0px;top:0px;}
+.snowflake{padding-left:15px;font-size:14px;line-height:24px;position:fixed;color:#ebebeb;user-select:none;z-index:1000;-moz-user-select:none;-ms-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;}
+.snowflake:hover {cursor:default}
+@font-face {
+  font-family: 'fontNhietDo1';
+  src: url('./font/vndi01.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'fontNhietDo2';
+  src: url(vndi02.ttf) format('truetype');
+}
+#dieuhoa {
+  width: 100%;
+  height: 100vh;
+  background-color: #232325;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#dieuhoa h1 {
+  color: #fff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 6rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+
+
